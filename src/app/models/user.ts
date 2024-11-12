@@ -1,3 +1,4 @@
+import { Rol } from "./rol";
 
 export class User {
 
@@ -10,5 +11,6 @@ export class User {
     password!: string;
     identificacion!: string;
     tipoIdentificacion!:string;
+    roles!: Rol[]; // Aquí incluimos el campo de roles
     
 }
